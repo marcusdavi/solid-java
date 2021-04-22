@@ -1,5 +1,4 @@
 # solid-java
-Exemplos do uso do Solid
 
 ## O que é SOLID? 
 SOLID é o acrônimo, é o conjunto de 5 boas práticas em relação a Orientação a objetos, cada letra fala de uma prática em particular.
