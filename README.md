@@ -8,12 +8,17 @@ SOLID é o acrônimo, é o conjunto de 5 boas práticas em relação a Orientaç
  * Tenha classes coesas.
  * Uma classe deve ter um, e somente um, motivo para mudar.
  * uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade dentro do software
+ * Ganhos:
+   1. Mais facilidade em reusar o código
+   2. Mais facilidade em criar os testes unitários
+   3. Mais facilidade na correção de bugs
  
 ### O — Open-Closed Principle (Princípio Aberto-Fechado)
  * Aberto para extensão, fechado para modificação. 
  * A ideia é que as suas Classes sejam abertas para extensão. Eu tenho que conseguir estendê-la, ou seja, mudar o comportamento dela, de maneira fácil.
  * Mas ela tem que estar fechada para alteração. Eu não tenho que ficar o tempo inteiro indo nela pra mexer um if a mais, para fazer uma modificação ou coisa do tipo.
  * Quando novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original.
+ * Se parece muito com o design pattern Strategy
 
 ### L — Liskov Substitution Principle (Princípio da substituição de Liskov)
  * Pra você usar herança, você tem que pensar muito bem nas pré-condições e pós-condições da classe antes de criar suas "filhas".
